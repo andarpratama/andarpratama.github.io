@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Andar Pratama</title>
+   <link rel="stylesheet" href="./css/tailwind.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="w-full h-screen">
+   <section class="w-full relative h-screen">
+      <!-- Navbar -->
+      <nav class="absolute z-20 w-full left-0 top-0 py-8 px-8 sm:px-8 md:px-10 lg:px-10">
+         <div class="flex justify-between items-center">
+            <div class="w-12">
+               <a href="/">
+                  <img class="w-full" src="./img/logo.jpg" alt="">
+               </a>
+            </div>
+            <div>
+               <a href="#">
+                  <span class="font-light font-montserrat">About<span class="font-bold">me</span> </span>
+               </a>
+            </div>
+         </div>
+      </nav>
+
+      <!-- Main -->
+      <main class="h-screen">
+         <div class="h-screen flex flex-col sm:flex-row justify-center items-center px-8 sm:px-0 md:px-0 lg:px-0">
+            <div class="md:w-1/3 lg:w-1/3 w-full">
+               <h1 class="text-4xl mb-2 uppercase font-light underline tracking-widest">A n d a r</h1>
+               <p class="text-gray-700 line font-montserrat">Welcome to my portfolio, seorang <br>
+               yang gila koding, menulis artikel <br>
+               dan mendesain</p>
+            </div>
+            <div class="md:w-3/5 lg:3/5 w-full mt-4 sm:mt-0 md:mt-0 lg:mt-0">
+               <div class="w-64 sm:w-96 md:w-95 lg:w-96 h-64 sm:h-96 md:h-95 lg:h-96">
+                  <img class="w-full h-full rounded-full" src="./img/andar.png" alt="">
+               </div>
+            </div>
+         </div>
+      </main>
+
+      <!-- Social Media -->
+      <section class="absolute z-10 top-0 right-0 h-screen p-0 ">
+         <div class="h-full flex items-center p-0">
+            <div class="transform -rotate-90 -mr-20 p-0">
+               <a class="text-gray-500 text-sm hover:text-gray-700 hover:underline mr-8" href="#">Instagram</a>
+               <a class="text-gray-500 text-sm hover:text-gray-700 hover:underline mr-8" href="#">Github</a>
+               <a class="text-gray-500 text-sm hover:text-gray-700 hover:underline " href="#">Medium</a>
+            </div>
+         </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="absolute z-20 w-full left-0 bottom-0 ">
+         <div class="px-8 sm:px-8 md:px-10 lg:px-10 pb-8 flex justify-between items-center">
+            <div>
+               <a href="https://www.youtube.com/channel/UC2Vluz3bnO8t9TOXu2xL-lw" target="_blank" class="flex justify-center items-center">
+                  <p class="inline-block font-light font-montserrat">
+                     Videos
+                  </p>
+                  <span class="text-xl ml-2 mt-1">&#8592;</span>
+               </a>
+            </div>
+            <div>
+               <a href="#" class="flex justify-center items-center">
+                  <span class="text-xl mr-2 mt-1">&#8594;</span>
+                  <p class="inline-block font-light font-montserrat">
+                     Projects
+                  </p>
+               </a>
+            </div>
+            </div>
+      </footer>
+   </section>
+</body>
+</html>

@@ -1,0 +1,616 @@
+@font-face {
+    font-family: Avenir-Light;
+    src: url('font/AvenirLTStd-Light.otf');
+}
+
+@font-face {
+    font-family: Avenir-Black;
+    src: url('font/AvenirLTStd-Black.otf');
+}
+
+div {
+    font-family: myFirstFont;
+}
+
+* {
+    font-family: 'Avenir-Light', sans-serif !important;
+}
+
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Avenir-Light', sans-serif;
+}
+
+.logo {
+    width: 70px;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+    border: none;
+    margin-top: 18px !important;
+    border-radius: 20px;
+}
+
+.dropdown-menu a.dropdown-item {
+    color: #000;
+}
+
+.dropdown-menu a.dropdown-item:hover {
+    background-color: #F26444 !important;
+    color: #fff;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover !important;
+    /* Resize the background image to cover the entire container */
+}
+
+.row-banner {
+    padding-top: 160px;
+}
+
+.cisco-design {
+    text-align: left;
+}
+
+.box-img-partner {
+    display: flex;
+    align-items: center;
+    justify-content: left !important;
+}
+
+.img-partner {
+    display: flex;
+    align-items: center;
+    justify-content: left !important;
+}
+
+
+.btn-us:hover {
+    background: linear-gradient(to right, #f7797d, #FBD786, rgb(34, 224, 110));
+}
+
+.about {
+    background: none;
+    padding-top: 100px;
+    padding-bottom: 0 !important;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+.list-group-item-action:hover {
+    background-color: rgba(135, 186, 233, 0.1) !important;
+}
+
+.fixed-top.scrolled {
+    background-color: rgba(254, 104, 69, 0.9) !important;
+    transition: background-color 200ms linear;
+    box-shadow: 0 2px 4px 0 rgba(63, 63, 63, 0.2), 0 3px 10px 0 rgba(94, 94, 94, 0.19);
+}
+
+.title-me {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    z-index: 9;
+}
+
+.about {
+    margin-top: -10px;
+}
+
+.section {
+    min-height: 500px;
+    padding: 70px 0;
+}
+
+.list-group a.list-group-item {
+    border: none !important;
+}
+
+img.profil {
+    width: 20%;
+}
+
+.alasan {
+    font-size: 32px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #A8D265;
+}
+
+div#darirumah {
+    margin-top: 80px;
+}
+
+div#darirumah p {
+    line-height: 40px;
+    margin: 50px 20px 50px 20px;
+    font-size: 22px;
+}
+
+div#bisnis-kecil {
+    background-image: url('img/bg-02.png');
+    height: 1000px;
+    background-repeat: no-repeat;
+    margin-top: 180px !important;
+    background-size: cover !important;
+}
+
+div#cyber {
+    background-image: url('img/bg-02.png');
+    height: 1200px;
+    background-repeat: no-repeat;
+    margin-top: 180px !important;
+    background-size: cover !important;
+}
+
+.child-bisnis-kecil {
+    padding-top: 250px;
+}
+
+.box-small-bisnis {
+    padding-top: 200px;
+}
+
+.small-bisnis-1 {
+    width: 60%;
+    margin: 20px 170px;
+    position: relative;
+}
+
+.small-bisnis-2 {
+    width: 70%;
+    margin: 10px 240px;
+    position: relative;
+}
+
+.kotak {
+    width: 100%;
+    height: 300px;
+    background-color: #FBD786;
+}
+
+table {
+    border-collapse: separate;
+    width: 100%;
+    border-spacing: 0 1em;
+}
+
+table tbody tr {
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+tbody tr td {
+    border-top: 5px solid #555;
+    border-bottom: 1px solid #555;
+}
+
+tbody tr td:first-child {
+    border-left: 1px solid #555;
+}
+
+tbody tr td:last-child {
+    border-right: 1px solid #555;
+}
+
+table.table td {
+    padding: 20px 20px 20px 50px !important;
+
+}
+
+table.table tbody td.td-1 {
+    width: 200px;
+}
+
+table.table tbody td.td-2 {
+    width: 400px;
+}
+
+table.table tbody td.td-3 {
+    width: 200px;
+}
+
+table.table tbody td.td-4 {
+    width: 250px;
+}
+
+thead tr:first-child td:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+thead tr:first-child td:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+tbody tr td:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+tbody tr td:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.solution-small {
+    margin-top: 100px;
+}
+
+.box-solution-small {
+    margin-top: 20px;
+}
+
+
+.box-solution {
+    position: relative;
+}
+
+.box-solution h2 {
+    font-size: 22px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -50px;
+    left: 100px;
+    padding: 10px 30px;
+}
+
+.box-solution-3 h2 {
+    font-size: 22px;
+    border-radius: 50px;
+    position: absolute;
+    top: -30px;
+    right: 0;
+    padding: 10px 30px;
+}
+
+.box-solution-3 img {
+    width: 95%;
+}
+
+.promo {
+    margin-top: 100px;
+}
+
+.img-footer {
+    text-align: right;
+}
+
+.img-footer div img {
+    width: 40%;
+}
+
+.img-footer img {
+    width: 60%;
+}
+
+.box-small-bisnis img.security-home {
+    width: 70% !important;
+    margin-top: 100px;
+}
+
+/* =================== MY BOOTSTRAP ======================== */
+
+.text-orange {
+    color: #F26444 !important;
+}
+
+.bg-orange {
+    background-color: #F25F37 !important;
+}
+
+.bg-orange-2 {
+    background-color: #FF9648 !important;
+}
+
+.text-orange2 {
+    color: #FE6845 !important;
+}
+
+.text-orange3 {
+    color: #FF9648 !important;
+}
+
+.text-green {
+    color: #9DCD4D !important;
+}
+
+.bg-green {
+    background-color: #9DCD4D !important;
+}
+
+.text-gold {
+    color: #FFCB2A !important;
+}
+
+.box-main-l {
+    padding-left: 80px !important;
+    height: 150px !important;
+}
+
+.box-main-r {
+    padding-right: 80px !important;
+    height: 150px !important;
+}
+
+.box-icon {
+    position: relative;
+}
+
+.box-number {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+}
+
+h1.icon-number {
+    color: #fff;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+.bg-gold {
+    background-color: #FFCB2A !important;
+}
+
+.text-12 {
+    font-size: 12px !important;
+}
+
+.text-13 {
+    font-size: 13px !important;
+}
+
+.text-14 {
+    font-size: 14px !important;
+}
+
+.text-20 {
+    font-size: 20px !important;
+}
+
+p.text-22 {
+    font-size: 22px !important;
+}
+
+.text-24 {
+    font-size: 24px !important;
+}
+
+.text-30 {
+    font-size: 30px !important;
+}
+
+.text-32 {
+    font-size: 32px !important;
+}
+
+.text-34 {
+    font-size: 34px !important;
+}
+
+
+
+
+/* =========================================== */
+@media only screen and (max-width: 786px) {
+    .title-me {
+        width: 730px;
+    }
+
+    .title-me h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    .title-me h1.labell {
+        font-size: 22px;
+    }
+
+    .title-me h5 {
+        font-size: 18px;
+    }
+
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
+
+    img.profil {
+        width: 50% !important;
+    }
+
+    p.lead {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .social-box a.h2 {
+        margin: 0 !important;
+        font-size: 26px;
+    }
+
+    .skills h5.d-block {
+        font-size: 13px !important;
+    }
+
+    .skills .row .progress {
+        height: 10px !important;
+    }
+
+    .skills .row .progress .progress-bar {
+        font-size: 10px;
+        line-height: 22px;
+    }
+
+    .bdr {
+        background: none;
+        margin-top: 700px !important;
+    }
+
+    #definisi .p-cisco {
+        font-size: 18px !important;
+        margin: 30px 0 !important;
+    }
+
+    img.img-02 {
+        padding: 10px;
+        width: 100% !important;
+    }
+
+    button.produk {
+        padding: 15px 5px !important;
+        padding-left: 20px !important;
+    }
+
+    img.img-03 {
+        width: 40px !important;
+        height: 40px !important;
+        top: 7px !important;
+    }
+
+    .box-main-l {
+        padding-left: 15px !important;
+        height: 150px !important;
+    }
+
+    .box-main-r {
+        padding-right: 0 !important;
+        height: 150px !important;
+        margin-top: 30px;
+    }
+
+    .child-bisnis-kecil {
+        padding-top: 50px;
+    }
+
+    .box-small-bisnis {
+        padding-top: 50px;
+        text-align: center !important;
+    }
+
+    .box-small-bisnis img.security-home {
+        width: 80% !important;
+        margin-top: 10px;
+    }
+
+    .small-bisnis-1 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+
+    .small-bisnis-2 {
+        width: 100%;
+        margin: 20px 0 0 0;
+        position: relative;
+    }
+
+    .alasan {
+        font-size: 26px;
+    }
+
+    .solution-small {
+        margin-top: 100px;
+    }
+
+    .box-solution-small {
+        margin-top: 100px;
+    }
+
+    .box-solution-3 img {
+        width: 95%;
+        height: 250px;
+    }
+
+    .promo {
+        margin-top: 100px;
+    }
+
+    div#darirumah {
+        margin-top: 180px;
+    }
+
+    div#darirumah p {
+        line-height: 40px;
+        margin: 30px 20px 10px 20px;
+        font-size: 20px;
+    }
+
+    .img-partner {
+        justify-content: center !important;
+    }
+
+    .cisco-design {
+        text-align: center;
+    }
+
+    .img-footer {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .img-footer div img {
+        width: 60%;
+    }
+
+    .img-footer img {
+        width: 80%;
+    }
+
+    table.table tbody td.td-1 {
+        width: 200px;
+        padding-left: 20px !important;
+    }
+
+    table.table tbody td.td-1 img {
+        width: 100px;
+    }
+
+    table.table tbody td.td-2 {
+        padding-left: 0 !important;
+        width: 200px;
+        font-size: 14px;
+    }
+
+    table.table tbody td.td-3 {
+        width: 200px;
+    }
+
+    table.table tbody td.td-4 {
+        width: 250px;
+    }
+
+
+    .bdr {
+        background: none;
+        margin-top: 400px !important;
+    }
+
+    br.br-bisnis {
+        display: none;
+    }
+
+    .row-banner {
+        padding-top: 100px;
+    }
+}
